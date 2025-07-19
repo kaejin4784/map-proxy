@@ -28,8 +28,8 @@ exports.handler = async function (event, context) {
   try {
     const naverResponse = await fetch(naverApiUrl, {
       headers: {
-        'X-NCP-APIGW-API-KEY-ID': NAVER_CLIENT_ID,
-        'X-NCP-APIGW-API-KEY': NAVER_CLIENT_SECRET,
+        'X-NCP-APIGW-API-KEY-ID':NAVER_CLIENT_ID,
+        'X-NCP-APIGW-API-KEY':NAVER_CLIENT_SECRET,
       },
     });
 
